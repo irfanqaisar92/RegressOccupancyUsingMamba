@@ -12,6 +12,7 @@ This repository contains a Jupyter notebook for indoor occupancy regression mode
 ## Requirements
 
 ```
+mamba-ssm
 torch
 pandas
 numpy
@@ -30,8 +31,12 @@ This model was trained on occupancy time-series data from an indoor room setting
 
 
 ## Visualization
-- Model loss curve
-- Predicted vs. actual occupancy scatter plots
+
+![image](https://github.com/user-attachments/assets/294affe7-ed7e-4d42-9944-1f39bebb0c4a)
+![image](https://github.com/user-attachments/assets/3f055b52-7a93-4978-8f6f-359b3242d75a)
+![image](https://github.com/user-attachments/assets/1715c898-3529-4b8a-b861-bf5d0d7acdff)
+
+
 
 ## Acknowledgements
 This project was developed as part of a research study on occupant-centric building control and deep-learning methods for indoor occupancy estimation.
