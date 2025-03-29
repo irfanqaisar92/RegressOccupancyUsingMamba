@@ -31,13 +31,14 @@ This model was trained on occupancy time-series data from an indoor room setting
 
 ## Results
 
-| Metric | Value  |
-|--------|--------|
-| MAE    | 0.53   |
-| RMSE   | 0.83   |
-| R²     | 94.14% |
-| MAPE   | 5.29%  |
-| MedAE  | 0.40   |
+| Metric | Value  | Description                                           |
+|--------|--------|-------------------------------------------------------|
+| **MAE**    | 0.53   | On average, predictions are off by 0.53 occupants       |
+| **RMSE**   | 0.83   | Slightly penalizes larger errors                     |
+| **R²**     | 94.14% | Model explains 94.14% of the variance in occupancy   |
+| **MAPE**   | 5.29%  | Predictions are ~5.29% off on average (as % of true) |
+| **MedAE**  | 0.40   | Half of the errors are below 0.40 occupants (robust to outliers) |
+
 
 
 ![image](https://github.com/user-attachments/assets/294affe7-ed7e-4d42-9944-1f39bebb0c4a)
