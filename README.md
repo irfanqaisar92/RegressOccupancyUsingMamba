@@ -29,8 +29,16 @@ This model was trained on occupancy time-series data from an indoor room setting
 - Temperature
 - Previous occupancy values
 
+## Results
 
-## Visualization
+| Metric | Value  |
+|--------|--------|
+| MAE    | 0.53   |
+| RMSE   | 0.83   |
+| R²     | 94.14% |
+| MAPE   | 5.29%  |
+| MedAE  | 0.40   |
+
 
 ![image](https://github.com/user-attachments/assets/294affe7-ed7e-4d42-9944-1f39bebb0c4a)
 ![image](https://github.com/user-attachments/assets/3f055b52-7a93-4978-8f6f-359b3242d75a)
@@ -40,19 +48,3 @@ This model was trained on occupancy time-series data from an indoor room setting
 
 ## Acknowledgements
 This project was developed as part of a research study on occupant-centric building control and deep-learning methods for indoor occupancy estimation.
-
-```python
-import torch
-from torch import nn
-
-class SimpleModel(nn.Module):
-    def __init__(self, input_size):
-        super().__init__()
-        self.linear = nn.Linear(input_size, 1)
-
-    def forward(self, x):
-        return self.linear(x)
-```
-
-
-Let me know if you want to automatically generate or edit your `README.md` file with content from your model or Colab notebook!
