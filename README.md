@@ -45,6 +45,10 @@ This model was trained on occupancy time-series data from an indoor room setting
 ![image](https://github.com/user-attachments/assets/1715c898-3529-4b8a-b861-bf5d0d7acdff)
 
 
+## Conclusion
+In this project, we developed a deep learning-based occupancy estimation model using the Mamba state-space architecture. Leveraging real-time sensor and environmental data from a study room, we preprocessed and sequenced time-series data, trained a custom MambaRegressor with early stopping, and achieved strong performance (MAE: 0.53, RMSE: 0.83, R²: 94.14%). We visualized model predictions and residuals, and ensured reproducibility by saving and reloading the best model. Overall, the Mamba model proved highly effective for time-series occupancy estimation, showing strong potential for smart building applications such as HVAC control, lighting automation, and space utilization.
+
+
 
 ## Acknowledgements
 This project was developed as part of a research study on occupant-centric building control and deep-learning methods for indoor occupancy estimation.
